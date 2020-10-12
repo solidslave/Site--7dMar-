@@ -1,17 +1,29 @@
-body {
-  font-family: 'Montserrat', sans-serif;
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/*.hard-skills-cont {
+body {
+  background-color: #f5f7fa;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20;
 }
-*/
+
+.wrapper {
+  background: #ffffff;
+  display: flex;
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
 
 /* obviously what does that mean:) */
-.left-side-container {
-  background: #be6632;
-  width: 400px;
-  padding: 20px;
+.left-sidebar {
+  background-color: #192a44;
+  width: 370px;
   box-sizing: border-box;
+  padding-top: 40px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
 }
@@ -22,8 +34,24 @@ body {
   font-style: normal;
   letter-spacing: normal;
   line-height: 24px;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-top: 50px;
+  margin-bottom: 55px;
 }
 
+/*Hard and Soft titles*/
+.sidebar-big-titles {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
 /* main settings for all sheets on page */
 .sheets {
   font-size: 14px;
@@ -31,39 +59,74 @@ body {
   font-style: normal;
   letter-spacing: normal;
   line-height: 24px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 55px;
 }
-/* white color for list of skills  */
+/* orange dots for list of skills  */
 .white-skills {
+  color: #c97a45;
+}
+/* white name of skills inside <span> */
+.white-word-skills {
   color: #ffffff;
 }
 
-/*bolt titles*/
-.big-titles {
+.about-me-conteiner {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.place-of-work {
+  color: #c97a45;
+}
+
+/* Education styles */
+
+.edu-title {
+  color: #c97a45;
+}
+
+/* .what-are-you {
+} */
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+/* ID's: #c - contacts, #foto - resume foto, #black-font - situative "black magic") */
+
+#c1 /* number and email */ {
+  color: #ffffff5d;
+  font-size: 14px;
+  padding-left: 5px;
+}
+#c2 /* E: and C: */ {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* size and place of foto on page */
+#foto {
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* RED color for custom injections */
+#red-font {
+  color: #c97a45;
+  font-style: italic;
+}
+#cont-title {
+  color: #ffffff;
   font-size: 22px;
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
   line-height: 24px;
-}
-
-/* //////////////////////////////////////////////////////////////////////////////// */
-
-/* ID's: #c - contacts, #foto - resume foto, #black-font - situative "black magic") */
-#c1,
-#c2 {
-  color: #201e1e;
-  font-size: 14px;
-}
-
-/* size and place of foto on page */
-#foto {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-}
-
-/* black color for unique places */
-#black-font {
-  color: #000000;
-  font-style: italic;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 10px;
 }

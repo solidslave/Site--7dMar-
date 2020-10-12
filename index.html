@@ -12,40 +12,42 @@
   </head>
   <body>
     <!-- main container -->
-    <main>
-      <img id="foto" src="./img/Foto Resume.jpg" alt="My foto" />
-        <aside class="left-side-container">
-
+    <main class="wrapper">
+      <aside class="left-sidebar">
+        <img id="foto" src="./img/Foto Resume.jpg" alt="My foto" />
+        
           <!-- Contacts container -->
           <div class="contacts-cont">
+            <h3 id="cont-title">Contacts</h3>
             <div>
-            <h3 class="big-titles">Contacts</h3>
-            <div>
-                <b class="white-skills">C:</b>
+                <span id="c2">C:</span>
                 <a href="tel:+380951138598"><span id="c1">+38 095 113 85 98</span></a>
               </div>
-                <b class="white-skills">E:</b>
-                 <a href="mailto:chornyiav@gmail.com"><span id="c2">chornyiav@gmail.com</span></a>
+                <span id="c2">E:</span>
+                 <a href="mailto:chornyiav@gmail.com"><span id="c1">chornyiav@gmail.com</span></a>
             </div>
           </div>
 
           <!-- SKILLS -->
 
           <!-- Hard skills -->
-          <div class="hard-skills-cont">
-            <h3 class="big-titles">Hard Skills</h3>
+          <div>
+            <h3 class="sidebar-big-titles">Hard Skills</h3>
 
             <div class="sheets">
-      <ul class="white-skills">
-                <li>CSS3</li>
-                <li>GIT</li>
-                <li>WebPack</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-                <li>Jira</li>
-                <li>
-                  Sound Design/ Music Production <br />(Reaper/ Cubase)
+              <ul class="white-skills">
+                <li><span class="white-word-skills">CSS3</span>
+                </li>
+                <li><span class="white-word-skills">GIT</span>
+                </li>
+                <li><span class="white-word-skills">WebPack</span>
+                </li>
+                <li><span class="white-word-skills">JavaScript</span>
+                </li>
+                <li><span class="white-word-skills">Jira</span>
+                </li>
+                <li><span class="white-word-skills">
+                  Sound Design/ Music Production <br />(Reaper/ Cubase)</span>
                 </li>
               </ul>
             </div>
@@ -53,17 +55,21 @@
 
           <!-- Soft skills -->
           <div class="soft-skills-cont">
-            <h3 class="big-titles">Soft Skills</h3>
+            <h3 class="sidebar-big-titles">Soft Skills</h3>
 
             <div class="sheets">
               <ul class="white-skills">
-                <li>SCRUM</li>
-                <li>SDLC</li>
-                <li>Teamwork</li>
-                <li>Fast Learning</li>
-                <li>
-                  Sense of humor: <b id="black-font">ACCESS DANIED</b>
+                <li><span class="white-word-skills">SCRUM</span>
                 </li>
+                <li><span class="white-word-skills">SDLC</span>
+                </li>
+                <li><span class="white-word-skills">Teamwork</span>
+                </li>
+                <li><span class="white-word-skills">Fast Learning</span>
+                </li>
+                <li><span class="white-word-skills">
+                  Sense of humor: <b id="red-font">ACCESS DANIED</b>
+                </span></li>
               </ul>
             </div>
           </div>
@@ -72,7 +78,7 @@
 
 
       <!-- ABOUT ME CONTAINER -->
-      <div>
+      <div class="about-me-conteiner">
         <!-- Name, Vacation and About -->
         <div>
           <h2>Junior QA</h2>
@@ -113,8 +119,6 @@
                 https://kidslike.goit.co.ua/
               </a>
               <span>...................</span>
-              <span>[ React.js, Node.js ]</span>
-            </li>
           </ol>
         </div>
 
@@ -124,7 +128,7 @@
 
           <!-- work 1 -->
           <div>
-            <h4>Manager | AlMar Hotel</h4>
+            <h4>Manager  <span class="place-of-work">AlMar Hotel</span></h4>
             <span>July 2019 - February 2020 | Ukraine</span>
 
             <ul>
@@ -137,7 +141,7 @@
 
           <!-- work 2 -->
           <div>
-            <h4>System Administrator | AlMar Hotel</h4>
+            <h4>System Administrator  <span class="place-of-work">AlMar Hotel</span></h4>
             <span>September 2019 - January 2020 | Ukraine</span>
 
             <ul>
@@ -150,7 +154,7 @@
 
           <!-- work 3 -->
           <div>
-            <h4>Administrator | AlMar Hotel</h4>
+            <h4>Administrator  <span class="place-of-work">AlMar Hotel</span></h4>
             <span>April 2019 - July 2020 | Ukraine</span>
 
             <ul>
@@ -167,7 +171,7 @@
 
             <!-- Education 1 -->
             <div>
-              <h3>Kyiv Municipal Academy of Circus and Variety Arts</h3>
+              <h3 class="edu-title">Kyiv Municipal Academy of Circus and Variety Arts</h3>
               <h4>Actor of theatre and television | Singer</h4>
               <span>2006 - 2010 | Ukraine</span>
             </div>
