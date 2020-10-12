@@ -2,17 +2,21 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/*.hard-skills-cont {
+}
+*/
+
 /* obviously what does that mean:) */
 .left-side-container {
   background: #be6632;
   width: 400px;
-  padding: 40px;
+  padding: 20px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 
-contacts-cont {
+.contacts-cont {
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -27,9 +31,7 @@ contacts-cont {
   font-style: normal;
   letter-spacing: normal;
   line-height: 24px;
-  color: ;
 }
-
 /* white color for list of skills  */
 .white-skills {
   color: #ffffff;
@@ -50,12 +52,12 @@ contacts-cont {
 #c1,
 #c2 {
   color: #201e1e;
+  font-size: 14px;
 }
 
 /* size and place of foto on page */
 #foto {
   height: 400px;
-  width: 400px;
   display: flex;
   flex-direction: column;
 }
