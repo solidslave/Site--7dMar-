@@ -1,0 +1,67 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* obviously what does that mean:) */
+.left-side-container {
+  background: #be6632;
+  width: 400px;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+contacts-cont {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+
+/* main settings for all sheets on page */
+.sheets {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: ;
+}
+
+/* white color for list of skills  */
+.white-skills {
+  color: #ffffff;
+}
+
+/*bolt titles*/
+.big-titles {
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+/* ID's: #c - contacts, #foto - resume foto, #black-font - situative "black magic") */
+#c1,
+#c2 {
+  color: #201e1e;
+}
+
+/* size and place of foto on page */
+#foto {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* black color for unique places */
+#black-font {
+  color: #000000;
+  font-style: italic;
+}

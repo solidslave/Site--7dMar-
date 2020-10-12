@@ -4,53 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My resume</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- main container -->
-    <div>
-      <aside>
-        <img src="./img/Foto Resume.jpg" alt="My foto" />
-
-        <!-- Contacts container -->
-        <div>
-          <h3>Contacts</h3>
-          <div>C: <a href="tel:+380951138598">+38 095 113 85 98</a></div>
-          <div>
-            E: <a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
+    <main>
+        <aside class="left-side-container">
+          <div class="foto">
+            <img id="foto" src="./img/Foto Resume.jpg" alt="My foto" />
           </div>
-        </div>
 
-        <!-- SKILLS -->
+          <!-- Contacts container -->
+          <div class="contacts-cont">
+            <div>
+            <h3 class="big-titles">Contacts</h3>
+            <div>
+                <b class="white-skills">C:</b>
+                <a href="tel:+380951138598"><span id="c1">+38 095 113 85 98</span></a>
+              </div>
+                <b class="white-skills">E:</b>
+                 <a href="mailto:chornyiav@gmail.com"><span id="c2">chornyiav@gmail.com</span></a>
+            </div>
+          </div>
 
-        <!-- Hard skills -->
-        <div>
-          <h3>Hard Skills</h3>
+          <!-- SKILLS -->
 
-          <ul>
-            <li>CSS3</li>
-            <li>GIT</li>
-            <li>WebPack</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Jira</li>
-            <li>Sound Design/ Music Production <br />(Reaper/ Cubase)</li>
-          </ul>
-        </div>
+          <!-- Hard skills -->
+          <div class="hard-skills-cont">
+            <h3 class="big-titles">Hard Skills</h3>
 
-        <!-- Soft skills -->
-        <div>
-          <h3>Soft Skills</h3>
+            <div class="sheets">
+              <ul class="white-skills">
+                <li>CSS3</li>
+                <li>GIT</li>
+                <li>WebPack</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Jira</li>
+                <li>
+                  Sound Design/ Music Production <br />(Reaper/ Cubase)
+                </li>
+              </ul>
+            </div>
+          </div>
 
-          <ul>
-            <li>SCRUM</li>
-            <li>SDLC</li>
-            <li>Teamwork</li>
-            <li>Fast Learning</li>
-            <li>Sense of Humor: ACCESS DANIED</li>
-          </ul>
-        </div>
-      </aside>
+          <!-- Soft skills -->
+          <div class="soft-skills-cont">
+            <h3 class="big-titles">Soft Skills</h3>
+
+            <div class="sheets">
+              <ul class="white-skills">
+                <li>SCRUM</li>
+                <li>SDLC</li>
+                <li>Teamwork</li>
+                <li>Fast Learning</li>
+                <li>
+                  Sense of humor: <b id="black-font">ACCESS DANIED</b>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+
 
       <!-- ABOUT ME CONTAINER -->
       <div>
@@ -162,6 +183,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
