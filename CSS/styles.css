@@ -20,7 +20,7 @@ body {
 /* obviously what does that mean:) */
 .left-sidebar {
   background-color: #192a44;
-  width: 350px;
+  width: 400px;
   box-sizing: border-box;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -53,7 +53,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  margin-left: 55px;
+  margin-left: 60px;
   margin-top: 15px;
   margin-bottom: 40px;
 }
@@ -62,7 +62,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  margin-left: 15px;
+  text-align: left;
+  margin-left: 20px;
   margin-top: 15px;
   margin-bottom: 40px;
 }
@@ -153,7 +154,7 @@ body {
 
 /* size and place of foto on page */
 #foto {
-  height: 350px;
+  height: 400px;
   display: flex;
   flex-direction: column;
 }
