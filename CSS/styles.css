@@ -48,15 +48,25 @@ body {
   margin-right: 40px;
   margin-bottom: 10px;
 }
-/* main settings for all sheets on page */
-.sheets {
+/* sheets1-side bar; sheets2 - main bar */
+.sheets1 {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  margin-left: 40px;
+  margin-left: 55px;
   margin-top: 15px;
   margin-bottom: 40px;
 }
+
+.sheets2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
 /* orange dots for list of skills  */
 .white-skills {
   color: #c97a45;
@@ -102,7 +112,7 @@ body {
 }
 
 .place-of-work {
-  color: #c97a45;
+  color: #ff6b08;
   margin: 5px;
   margin-bottom: 20px;
 }
@@ -116,7 +126,7 @@ body {
 }
 
 .edu-title {
-  color: #c97a45;
+  color: #ff6b08;
   margin-top: 20px;
 }
 
@@ -138,6 +148,7 @@ body {
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
+  margin-left: 20px;
 }
 
 /* size and place of foto on page */
@@ -178,5 +189,15 @@ body {
 
 /* RED color for custom injections */
 #red-font {
-  color: #c97a45;
+  color: #ff6b08;
+}
+
+/* MAke BOLD whole line...WTF?! */
+#bolt-font {
+  font-weight: 700;
+}
+
+/* make font NORM again! id - inside <span> */
+#norm-font {
+  font-weight: 400;
 }
